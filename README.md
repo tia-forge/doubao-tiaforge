@@ -10,7 +10,12 @@
 
 ## 下载
 
-[tiaforge-doubao-plugin-1.0.5.zip](https://github.com/tia-forge/doubao-tiaforge/releases/download/v1.0.5/tiaforge-doubao-plugin-1.0.5.zip)（41 KB）
+| 线路 | 地址 |
+|---|---|
+| GitHub | [tiaforge-doubao-plugin-1.0.5.zip](https://github.com/tia-forge/doubao-tiaforge/releases/download/v1.0.5/tiaforge-doubao-plugin-1.0.5.zip)（41 KB） |
+| **Gitee（国内推荐）** | [tiaforge-doubao-plugin-1.0.5.zip](https://gitee.com/tia-forge/doubao-tiaforge/releases/download/v1.0.5/tiaforge-doubao-plugin-1.0.5.zip) |
+
+> Gitee 为镜像仓：<https://gitee.com/tia-forge/doubao-tiaforge>（GitHub 打不开时用这个）
 
 ## 安装
 
