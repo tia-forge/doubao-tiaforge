@@ -7,7 +7,7 @@ summary: 一份 SimaticML 进，真实布局的 PNG 梯形图出——触点、�
 description: 把 SimaticML（TIA Portal 导出的 FC/FB/OB 块 XML）渲染成 PNG 梯形图的云端 MCP 服务。当用户要"让 AI 看一眼梯形图"、"SimaticML 转 PNG"、"不装博途把块渲染成图片"、"核对 AI 生成的 LAD 逻辑"、"把梯形图贴进 PR/文档"时使用。只解析 XML 文本，不连接博途、不读写工程；不装博途也能渲染。 In English — render SimaticML — the FC/FB/OB block XML exported from TIA Portal — into a PNG ladder diagram with real layout (contacts, coils, branch merges, interface table), so an AI agent can actually see the logic it wrote. Use to review LAD logic before importing it, or to attach a ladder drawing to a PR or document. It only parses XML text — no TIA Portal needed, no project read or write.
 license: CC-BY-4.0
 tags: [梯形图, LAD, SimaticML, 渲染, PNG, 博途, 博图, PLC, MCP]
-homepage: https://tia.hubwiz.com/render/?utm_source=dsh&utm_medium=plugin
+homepage: https://tia.hubwiz.com/render/?utm_source=doubao&utm_medium=plugin
 metadata:
   display_name: 梯形图渲染
   display_description: 把 SimaticML 渲染成 PNG，导入博途前先看一眼逻辑长什么样（按次计费）。
@@ -40,7 +40,7 @@ SimaticML XML ──MCP(Streamable HTTP, /render/mcp + API Key)──► 云端�
 
 ## 30 秒跑通
 
-1. **拿 Key**（微信扫码，新用户 **100 次免费**，无需注册）：https://tia.hubwiz.com/render/?utm_source=dsh&utm_medium=plugin
+1. **拿 Key**（微信扫码，新用户 **100 次免费**，无需注册）：https://tia.hubwiz.com/render/?utm_source=doubao&utm_medium=plugin
 2. **把这段贴进 MCP 客户端**（WorkBuddy：`~/.workbuddy/mcp.json`；Claude Code / Cursor / VS Code 直接贴）：
 
 ```json
@@ -250,7 +250,7 @@ PNG 存成 <块名>_all.png 或 <块名>_net<N>.png，元数据存同名 .json�
 | 开通 | 微信扫码登录即得 API Key，无需注册；新用户 **100 次免费** |
 | 计费 | 每次 `tools/call` 扣 1 次（**失败也扣**）；`initialize` / `tools/list` / `render_version` 不计费 |
 | 额度包 | 1000 次 ¥9.90 / 5000 次 ¥29.90 / 15000 次 ¥69.90（一次性，**额度不过期**，无订阅无月费） |
-| 页面 | https://tia.hubwiz.com/render/?utm_source=dsh&utm_medium=plugin （含 MCP 配置指南：`/render/help`） |
+| 页面 | https://tia.hubwiz.com/render/?utm_source=doubao&utm_medium=plugin （含 MCP 配置指南：`/render/help`） |
 | 机器可读口径 | `https://tia.hubwiz.com/render/version`（版本/能力/上限/计费，客户端应以它为准） |
 
 ---

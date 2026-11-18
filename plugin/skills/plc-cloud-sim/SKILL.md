@@ -7,7 +7,7 @@ summary: 不装博途也能跑 PLC 逻辑：把 SCL 或 LadDoc 梯形图交给�
 description: 用云端 MCP 仿真 PLC 程序：校验 SCL 与 LadDoc 梯形图、逐扫描周期运行、回读变量与诊断、执行声明式场景（用例/穷举/模糊/不变量）得到 PASS/FAIL 报告。当用户要"验证 AI 写的 PLC 代码"、"不装博途先跑一遍逻辑"、"起保停/状态机回归"、"给梯形图写测试用例"时使用。不需要博途，程序片段会上传云端。 In English — simulate and test PLC programs in the cloud over MCP — validate SCL and LadDoc ladder logic, run it scan cycle by scan cycle, read back variables and diagnostics, and execute declarative scenarios (cases / exhaustive / fuzzy / invariants) to get PASS/FAIL reports. Use to verify AI-written PLC code, test a start-stop latch or state machine regression, or write test cases for ladder logic without installing TIA Portal. Program snippets are uploaded to the cloud service.
 license: CC-BY-4.0
 tags: [梯形图, SCL, 仿真, 博途, 博图, PLC, 测试, 回归]
-homepage: https://tia.hubwiz.com/sim?utm_source=dsh&utm_medium=plugin
+homepage: https://tia.hubwiz.com/sim?utm_source=doubao&utm_medium=plugin
 metadata:
   display_name: PLC 云仿真
   display_description: 在云端逐扫描运行梯形图逻辑，按场景给出 PASS/FAIL。
@@ -21,7 +21,7 @@ metadata:
 
 ## 30 秒跑通（照这个做，养成“先能跑再读”的习惯）
 
-1. **拿 Key**（微信扫码，新用户 100 次免费，无需注册）：https://tia.hubwiz.com/sim?utm_source=dsh&utm_medium=plugin
+1. **拿 Key**（微信扫码，新用户 100 次免费，无需注册）：https://tia.hubwiz.com/sim?utm_source=doubao&utm_medium=plugin
 2. **把下面这段贴进你的 MCP 客户端**（WorkBuddy：`~/.workbuddy/mcp.json`；Claude Code / Cursor / VS Code 直接贴）：
 
 ```json
@@ -183,7 +183,7 @@ metadata:
 | 开通 | 微信扫码登录即得 API Key，无需注册；新用户 **100 次免费** |
 | 计费 | 每次 `tools/call` 扣 1 次；`initialize` / `tools/list` 不计费 |
 | 额度包 | 1000 次 ¥9.90 / 5000 次 ¥29.90 / 15000 次 ¥69.90（一次性，无订阅无月费） |
-| 页面 | https://tia.hubwiz.com/sim?utm_source=dsh&utm_medium=plugin （含 MCP 配置指南） |
+| 页面 | https://tia.hubwiz.com/sim?utm_source=doubao&utm_medium=plugin （含 MCP 配置指南） |
 
 ---
 

@@ -7,7 +7,7 @@ summary: 让 AI 查博途官方编程文档而不是凭记忆猜：2800+ 编程�
 description: 检索西门子 TIA Portal（博途/博图）官方编程文档：函数块用法、指令参数与边沿语义、数据类型与取值范围、系统常量、错误代码。当用户问"这个指令怎么用""TON 和 TONR 区别""S7-1500 定时器最大时长""某个系统常量是什么"或需要核对 API 参数时使用。比模型记忆可靠，因为博途文档随版本变。 In English — retrieve the official Siemens TIA Portal programming documentation (2800+ sections — function block usage, instruction parameters and edge semantics, data types and ranges, system constants, error codes) through one MCP tool, with the source chapter returned. Use to check how an instruction works, the difference between TON and TONR, S7-1500 timer limits, or any system constant, instead of relying on model memory.
 license: CC-BY-4.0
 tags: [博途, 博图, TIA Portal, 西门子, 指令, 文档, SCL, 数据类型]
-homepage: https://tia.hubwiz.com/ai-coding-docs?utm_source=dsh&utm_medium=plugin
+homepage: https://tia.hubwiz.com/ai-coding-docs?utm_source=doubao&utm_medium=plugin
 metadata:
   display_name: 博途文档检索
   display_description: 按关键词检索西门子博途编程文档与指令说明（2 800+ 章节），回答前先查再答。
@@ -22,7 +22,7 @@ metadata:
 
 ## 30 秒跑通（照这个做，养成“先能跑再读”的习惯）
 
-1. **拿 Key**（微信扫码登录即得；控制台 → 「更换密钥」可重生，**新密钥只显示一次**）：https://tia.hubwiz.com/ai-coding-docs?utm_source=dsh&utm_medium=plugin
+1. **拿 Key**（微信扫码登录即得；控制台 → 「更换密钥」可重生，**新密钥只显示一次**）：https://tia.hubwiz.com/ai-coding-docs?utm_source=doubao&utm_medium=plugin
 2. **把下面这段贴进你的 MCP 客户端**（WorkBuddy：`~/.workbuddy/mcp.json`）：
 
 ```json
@@ -155,7 +155,7 @@ claude mcp add --transport http tia https://tia.hubwiz.com/ai-coding-docs/mcp \
 | 开通 | 微信扫码登录即得 API Key，无需注册；**新用户 100 次免费** |
 | 计费 | 每次 `get_docs` 扣 1 次；额度包 1000 次 ¥9.90 / 5000 次 ¥29.90 / 15000 次 ¥69.90（一次性，无订阅） |
 | 控制台 | 登录后 `/dashboard` → 「更换密钥」 |
-| 页面 | https://tia.hubwiz.com/ai-coding-docs?utm_source=dsh&utm_medium=plugin |
+| 页面 | https://tia.hubwiz.com/ai-coding-docs?utm_source=doubao&utm_medium=plugin |
 
 ---
 
